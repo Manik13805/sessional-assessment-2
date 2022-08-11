@@ -60,4 +60,8 @@
   footer .footer-socials {
     margin-bottom: 3rem;
   }
+  footer .footer-socials a:hover {
+    background-color: aqua;
+  }
+
 
