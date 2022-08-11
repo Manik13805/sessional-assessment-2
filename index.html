@@ -171,15 +171,7 @@ function fetchpos() {
       pos = res;
       console.log(pos);
       cardpack.innerHTML = null;
-      for (let i = 0; i < 10; i++) {
-        cardpack.innerHTML += createposcard(
-          pos[i].id,
-          pos[i].username,
-          pos[i].name,
-          pos[i].email,
-          pos[i].address.city,
-          pos[i].company.name
-        );
+      
       }
     }
   };
